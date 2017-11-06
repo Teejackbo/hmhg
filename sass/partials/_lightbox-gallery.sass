@@ -1,0 +1,95 @@
+.gallery h2 
+    margin: 0
+
+.gallery-img
+    cursor: pointer
+
+.gallery-display
+    display: none
+    position: fixed
+    z-index: 100
+    height: 100%
+    top: 0
+    left: 0
+    width: 100%
+    transition: 0.2s
+
+.gallery-item
+    max-width: 90%
+    max-height: 90%
+    user-select: none
+
+.gallery-overlay
+    width: 100%
+    height: 100%
+    overflow: hidden
+    background-color: rgba(0, 0, 0, 1)
+    display: flex
+    align-items: center
+    justify-content: center
+
+.arrow
+    position: fixed
+    z-index: 200
+
+.arrow-right
+    width: 0
+    height: 0
+    right: 3em
+    border-top: 60px solid transparent
+    border-bottom: 60px solid transparent
+    border-left: 60px solid white
+    cursor: pointer
+    user-select: none
+
+.arrow-left
+    width: 0
+    height: 0
+    left: 3em
+    border-top: 60px solid transparent
+    border-bottom: 60px solid transparent
+    border-right: 60px solid white
+    cursor: pointer
+    user-select: none
+
+.close
+    color: #fff
+    font-family: Arial
+    font-size: 7em
+    position: fixed
+    top: 0
+    right: 0.3em
+    cursor: pointer
+    user-select: none
+
+.caption
+    display: none
+    background: rgba(0, 0, 0, 0.5)
+    font-family: 'Roboto'
+    font-size: 1.5em
+    text-align: center
+    align-items: center
+    justify-content: center
+    position: fixed
+    bottom: 0
+    z-index: 100
+    width: 100%
+    height: 7em
+    color: #fff
+
+@media (max-width: 767px)
+    .arrow-right
+        border-top: 30px solid transparent
+        border-bottom: 30px solid transparent
+        border-left: 30px solid white
+        right: 1em
+
+    .arrow-left
+        border-top: 30px solid transparent
+        border-bottom: 30px solid transparent
+        border-right: 30px solid white
+        left: 1em
+    
+    .close
+        right: 0.3em
+        font-size: 6em
