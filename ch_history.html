@@ -9,9 +9,6 @@
     <link href="css/hmhg.css" type="text/css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="scripts/gallery.js"></script>
-    <script src="scripts/navbarScript.js"></script>
     <title>HMHG - History of Cinder Hill Engine House</title>
   </head>
     
@@ -109,17 +106,18 @@
   </footer>
   <div class="copyright">Copyright 2017 Holcombe Moor Heritage Group</div>
 
-  <div class='gallery-container'>
-    <div class='cross'>x</div>
-    <div class='left arrow'><</div>
-    <div class='lightbox-outer'>
-      <div class='lightbox-inner'>
-        <img class='lightbox'>
-        <div class='lightbox-desc'></div>
-      </div>
+  <div class="gallery-display">
+    <div class="gallery-overlay">
+      <div class="close">x</div>
+      <div class="arrow arrow-left"></div>
+      <img src="" class="gallery-item">
+      <div class="arrow arrow-right"></div>
+      <div class="caption"></div>
     </div>
-    <div class='right arrow'>></div>
   </div>
+
+<script src="gallery.js"></script>
+<script src="navbarScript.js"></script>
 
 </body>
 </html>
