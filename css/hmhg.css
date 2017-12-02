@@ -218,6 +218,9 @@ nav {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto; }
 
+.event-list .row {
+  margin: 1% 12%; }
+
 .btn-readmore {
   transition: all 0.5s;
   position: relative;
