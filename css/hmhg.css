@@ -269,6 +269,15 @@ footer {
 .fa-twitter-square {
   color: #1da1f2; }
 
+.fa.fa-instagram {
+  color: #ffffff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  padding: 1px 3.5px;
+  border-radius: 5px;
+  font-size: 40px;
+  position: relative;
+  top: -3px; }
+
 .social-icon {
   margin-right: 0.2em; }
 
